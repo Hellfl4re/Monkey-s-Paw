@@ -1,0 +1,6 @@
+entrypoint = "paw_webapp.py"
+run = "python paw_webapp.py"
+
+[deployment]
+run = ["python", "paw_webapp.py"]
+deploymentTarget = "cloudrun"
